@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-addo-sign",
+      "description": "Connect AI agents to Addo Sign using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-addo-sign/SKILL.md": "77a415e684e10c4bceb223971452c7e7b8e848108805a5c724c3636bff7ee941"
+  }
+}
