@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "bf0b95165b67e33b724cd44cd2d4214a92f741a400c1d9c5bf5886853b016f78",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://addosign.net/api/"
+  ],
+  "id": "addo-sign-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Addo Sign MCP setup and connection checker",
+  "description": "Generate Addo Sign MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "addo-sign",
+  "appName": "Addo Sign",
+  "providerDocs": "https://addosign.net/api/",
+  "providerWebsite": "https://www.addosign.com/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://addosign.net/api/",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-addo-sign-mcp"
+}
